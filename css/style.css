@@ -1,0 +1,722 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    /* border: 1px solid green; */
+    float: left;
+    width: 100%;
+    padding: 0px 35px;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+#logo{
+    height: 80%;
+    width: 20%;
+    margin: 5px 0px;
+    /* border: 1px solid red; */
+    float: left;
+    background-image: url('../images/logo1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+nav{
+    /* border: 1px solid blue; */
+    width: 80%;
+    float: left;
+    height: 100%;
+
+}
+nav ul{
+    list-style-type: none;
+    float: right;
+    /* border: 1px solid green; */
+    padding: 10px 0px 0px 150px;
+    /* width: 100%; */
+    font-size: 15px;
+}
+nav ul li{
+    /* border: 1px solid magenta; */
+    float: left;
+    padding: 5px;
+    margin-right: 20px;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s;
+}
+nav ul li a:hover,nav ul li:hover{
+    background-color: rgb(137, 197, 48);
+    color: white;
+    transform: scale(1);
+}
+nav ul li:last-child a,nav ul li:last-child{
+    background-color: rgb(137, 197, 48);
+    /* color: white; */
+}
+#img{
+    background-image: url('../images/landing-background.png');
+    height: 100vh;
+    /* border: 1px solid red; */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+#img h1{
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 5px;
+    width: 100%;
+    position: relative;
+    top: 200px;
+    /* border: 1px solid rebeccapurple; */
+}
+#img h5{
+    width: 70%;
+    text-align: center;
+    opacity: 1;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    top: 200px;
+    /* border: 1px solid rebeccapurple; */
+}
+#steps{
+    /* border: 1px solid rebeccapurple; */
+}
+.step{
+    /* border: 1px solid brown; */
+    width: 25%;
+    float: left;
+    min-height: 450px;
+}
+#step1 i{
+    font-size: 60px;
+    transition: all 0.5s;
+    color: white;
+    /* border: 1px solid green; */
+}
+#step1{
+    padding: 80px 20px;
+    text-align: center;
+    background-color: rgb(123, 215, 185);
+}
+#step1 p{
+    font-size: 30px;
+    color: white;
+    margin: 20px 0px;
+
+}
+#step1 span{
+    color: white;
+    /* border: 1px solid red; */
+}
+#step2 i{
+    font-size: 60px;
+    transition: all 0.5s;
+    color: white;
+    /* border: 1px solid green; */
+}
+#step2{
+    padding: 80px 20px;
+    text-align: center;
+    background-color:#91ac41;
+}
+#step2 p{
+    font-size: 30px;
+    color: white;
+    margin: 20px 0px;
+
+}
+#step2 span{
+    color: white;
+    /* border: 1px solid red; */
+}
+#step3 i{
+    font-size: 60px;
+    transition: all 0.5s;
+    color: white;
+    /* border: 1px solid green; */
+}
+#step3{
+    padding: 80px 20px;
+    text-align: center;
+    background-color:#e4b476;
+}
+#step3 p{
+    font-size: 30px;
+    color: white;
+    margin: 20px 0px;
+
+}
+#step3 span{
+    color: white;
+    /* border: 1px solid red; */
+}
+#step4 i{
+    font-size: 60px;
+    transition: all 0.5s;
+    color: white;   
+    /* border: 1px solid green; */
+}
+#step4{
+    padding: 80px 20px;
+    text-align: center;
+    background-color:#f69dad;
+}
+#step4 p{
+    font-size: 30px;
+    color: white;
+    margin: 20px 0px;
+
+}
+#step4 span{
+    color: white;
+    /* border: 1px solid red; */
+}
+#step1:hover i{
+    transform: scale(1.5);
+}
+#step2:hover i{
+    transform: scale(1.5);
+}
+#step3:hover i{
+    transform: scale(1.5);
+}
+#step4:hover i{
+    transform: scale(1.5);
+
+}
+#sec3{
+    background-color: #f7eee2;
+    /* border: 1px solid red; */
+    padding: 50px;
+    text-align: center;
+    line-height: 50px;
+    width: 100%;
+    float: left;
+}
+#sec3 h1{
+    font-size: 50px;
+    
+}
+#sec3 h4{
+    font-family: 'Dancing Script', cursive;
+    color: green;
+
+
+}
+#sec3 h5{
+    opacity: 0.5;
+    font-size: 17px;
+}
+#icons{
+    /* border: 1px solid red; */
+    width: 70%;
+    margin: 0 15%;
+    float: left;
+    padding-top: 50px;
+    
+}
+#icons #i1{
+    /* border: 1px solid blue; */
+    min-height: 300px;
+    width: 25%;
+    padding-top:25px;
+    float: left;
+    /* min-height: 300px; */
+}
+#icons #i1 i{
+    font-size: 50px;
+    /* border: 1px solid green; */
+    background-color: #e4b476;
+    color: white;
+    padding: 30px;
+    border-radius: 50%;
+    transition: all 0.5s;
+    
+}
+#con1 p{
+    font-weight: bold;
+    font-size: 20px;
+    /* border: 1px solid green; */
+    margin-top: 10px;
+}
+#con1 h5{
+    /* border: 1px solid green; */
+    /* margin-top: 10px; */
+    opacity: 0.5;
+    font-size: 15px;
+    line-height: 19px;
+    padding: 10px 18px;
+}
+#i1:hover i{
+    transform: scale(1.1);
+}
+#icons #i2{
+    /* border: 1px solid blue; */
+    min-height: 300px;
+    width: 25%;
+    padding-top:25px;
+    float: left;
+}
+#icons #i2 i{
+    font-size: 50px;
+    /* border: 1px solid green; */
+    background-color: #e4b476;
+    color: white;
+    padding: 30px;
+    border-radius: 50%;
+    transition: all 0.5s;
+    
+}
+#con2 p{
+    font-weight: bold;
+    font-size: 20px;
+    /* border: 1px solid green; */
+    margin-top: 10px;
+}
+#con2 h5{
+    /* border: 1px solid green; */
+    /* margin-top: 10px; */
+    opacity: 0.5;
+    font-size: 15px;
+    line-height: 19px;
+    padding: 10px 18px;
+}
+#i2:hover i{
+    transform: scale(1.1);
+}
+#icons #i3{
+    /* border: 1px solid blue; */
+    min-height: 300px;
+    width: 25%;
+    padding-top:25px;
+    float: left;
+}
+#icons #i3 i{
+    font-size: 50px;
+    /* border: 1px solid green; */
+    background-color: #e4b476;
+    color: white;
+    padding: 30px;
+    border-radius: 50%;
+    transition: all 0.5s;
+    
+}
+#con3 p{
+    font-weight: bold;
+    font-size: 20px;
+    /* border: 1px solid green; */
+    margin-top: 10px;
+}
+#con3 h5{
+    /* border: 1px solid green; */
+    /* margin-top: 10px; */
+    opacity: 0.5;
+    font-size: 15px;
+    line-height: 19px;
+    padding: 0px 18px;
+}
+#i3:hover i{
+    transform: scale(1.1);
+}
+#icons #i4{
+    /* border: 1px solid blue; */
+    min-height: 300px;
+    width: 25%;
+    padding-top:25px;
+    float: left;
+}
+#icons #i4 i{
+    font-size: 50px;
+    /* border: 1px solid green; */
+    background-color: #e4b476;
+    color: white;
+    padding: 30px;
+    border-radius: 50%;
+    transition: all 0.5s;
+    
+}
+#con4 p{
+    font-weight: bold;
+    font-size: 20px;
+    /* border: 1px solid green; */
+    margin-top: 10px;
+}
+#con4 h5{
+    /* border: 1px solid green; */
+    /* margin-top: 10px; */
+    opacity: 0.5;
+    font-size: 15px;
+    line-height: 19px;
+    padding: 0px 18px;
+}
+#i4:hover i{
+    transform: scale(1.1);
+}
+#sec4{
+    background-color: white;
+    /* border: 1px solid red; */
+    padding: 100px 0;
+    text-align: center;
+    line-height: 50px;
+    width: 100%;
+    float: left;
+}
+#sec4 h1{
+    font-size: 50px;
+    
+}
+#sec4 h4{
+    font-family: 'Dancing Script', cursive;
+    color: green;
+}
+#sec4 h5{
+    opacity: 0.5;
+    font-size: 17px;
+}
+#person{
+    /* border: 1px solid red; */
+    width: 70%;
+    margin: 20px 15%;
+    float: left;
+    /* padding-top: 50px; */
+}
+#person .in-per{
+    /* border: 1px solid blue; */
+    width: 30%;
+    float: left;
+    padding: 60px 60px 0px 60px;
+    min-height: 500px;
+    border-radius: 10% 0px;
+    background-color:#f5f6fb;
+    margin:0 15px;
+    transition: all 0.5s;
+}
+#person .in-per img{
+    /* border: 1px solid green; */
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: contain;
+    object-position: center center;
+
+}
+#person .in-per p{
+    line-height: 25px;
+    padding-top: 20px;
+    color: #7a7272;
+    font-weight: 600;
+}
+#person .in-per h3{
+    padding-top: 20px;
+    /* border: 1px solid rebeccapurple; */
+}
+#person .in-per span{
+    line-height: 25px;
+    color: rgb(122, 114, 114);
+}
+#person .in-per:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+#fgi{
+    max-width: 70%;
+    min-width: 70%;
+    float: left;
+    height: 100%;
+    /* border: 2px solid rgb(95, 137, 31); */
+}
+#fgi img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+
+}
+#bgi{
+    /* border: 1px solid red; */
+    width: 30%;
+    float: left;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../images/strawberry-white.png');
+    background-size: cover;
+}
+#sec5{
+    height: 675px;
+    /* border: 1px solid red; */
+    width: 100%;
+    float: left;
+
+}
+#form{
+    /* border: 1px solid red; */
+    width: 100%;
+    float: left;
+    height: 100%;
+    padding: 80px 120px;
+
+}
+#form span{
+    /* border: 1px solid red; */
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    display: inline-block;
+}
+#form p{
+    /* border: 1px solid red; */
+    width: 100%;
+    color: #7a7272;
+    font-size: 17px;
+    /* text-align: center; */
+    padding: 40px 0px;
+}
+#main-form{
+    /* border: 1px solid red; */
+    width: 100%;
+    float: left;
+    padding: 30px 0px;
+}
+#main-form #email{
+    border-style: none;
+    padding: 10px 0px;
+    outline: none;
+}
+#main-form #submit{
+    background-color: #f69dad;
+    border: 1px solid #f69dad;
+    color: white;
+    padding: 8px 10px 8px 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 20px 0px;
+    border-style: solid;
+    transition: all 0.2s;
+}
+#submit:hover {
+    opacity: 0.8;
+
+}
+#sec6{
+    /* border: 1px solid red; */
+    width: 100%;
+    float: left;
+    padding: 100px 15%;
+    background-color: #f6fcfa;
+
+}
+#insec6{
+    /* border: 1px solid blue; */
+    width: 100%;
+    float: left;
+    padding: 20px;
+}
+.ratting{
+    /* border: 1px solid green; */
+    width: 25%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+.ratting span{
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+.ratting p{
+    color: #57e3b5;
+    padding-top: 20px;
+    font-size: 17px;
+}
+#sec7{
+    /* border: 1px solid red; */
+    width: 100%;
+    float: left;
+    padding: 2% 30%;
+}
+#insec7{
+    /* border: 1px solid green; */
+    width: 100%;
+    float: left;    
+    /* text-align: center; */
+    padding-top: 20px;
+    
+
+}
+#vtitle span{
+    /* border: 1px solid blue; */
+    float: left;
+    margin-left: 33.33%;
+    font-size: 40px;
+    color: #7a7272;
+    
+}
+#vtitle hr{
+    width: 20%;
+    margin: 20px 0 40px 41%;
+    /* border: 0.5px solid #57e3b5; */
+    float: left;
+    background-color: #57e3b5;
+    /* background-color: #57e3b5; */
+}
+#video{
+    /* border: 1px solid red; */
+    float: left;
+    position: relative;
+    left: 20px;
+}
+#sec8{
+    /* border: 1px solid red; */
+    width: 100%;
+    float: left;
+    padding: 70px 0px;
+}
+#insec8{
+    /* border: 1px solid blue; */
+    width: 70%;
+    float: left;
+    position: relative;
+    left: 15%;
+    right: 15%;
+    /* height: 200px; */
+    padding: 20px 0px;
+}
+#add{
+    /* border: 1px solid green; */
+    width: 50%;
+    float: left;
+}
+#get{
+    /* border: 1px solid green; */
+    width: 50%;
+    float: left;
+}
+#add h3{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(154, 219, 89);
+    padding-bottom: 10px;
+}
+#add h1{
+    font-family: 'Poppins',sans-serif;
+    font-size: 2.75rem;
+}
+#add h4{
+    font-family: 'Poppins',sans-serif;
+    color: #7a7272;
+    padding: 15px 7px 0px 0px;
+    font-weight: 200;
+    /* border: 1px solid red; */
+}
+#London h2{
+    font-family: 'Poppins',sans-serif;
+    padding: 20px 0px;
+    /* border: 1px solid red; */
+    float: left;
+
+}
+#London span{
+    font-family: 'Poppins',sans-serif;
+    /* border: 1px solid red; */
+    padding: 20px 0;
+    line-height: 30px;
+    float: left;
+    /* width: 50%; */
+    color: #7a7272;
+}
+#Berlin h2{
+    font-family: 'Poppins',sans-serif;
+    padding: 20px 0px;
+    float: left;
+    /* border: 1px solid red; */
+
+}
+#Berlin span{
+    font-family: 'Poppins',sans-serif;
+    /* border: 1px solid red; */
+    padding: 20px 0;
+    line-height: 30px;
+    float: left;
+    /* width: 50%; */
+    color: #7a7272;
+}
+#Berlin{
+    width: 50%;
+    float: left;
+    padding-left: 20px;
+}
+#London{
+    width: 50%;
+    float: left;
+}
+#get h3{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(154, 219, 89);
+    padding-bottom: 10px;
+}
+#get h1{
+    font-family: 'Poppins',sans-serif;
+    font-size: 2.75rem;
+}
+#get h4{
+    font-family: 'Poppins',sans-serif;
+    color: #7a7272;
+    padding: 15px 0px;
+    font-weight: 200;
+}
+#last-form{
+    /* border: 1px solid red; */
+    width: 100%;
+    float: left;
+    padding: 20px 20px;
+}
+#submit{
+    width: 30%;
+    background-color: #99d244;
+    /* border: 1px solid #99d244; */
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+#submit:hover{
+    background-color:white;
+    color: #99d244;
+}
+.form{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 0.5px solid gainsboro;
+    outline: none;
+}
+footer{
+    /* border: 1px solid red; */
+    width: 100%;
+    float: left;
+    padding: 10px 30%;
+    background-color: black;
+}
+#copyright{
+    /* border: 1px solid blue; */
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    font-size: 15px;
+
+}
